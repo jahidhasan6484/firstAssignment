@@ -1,15 +1,40 @@
 body{
-    font-family: 'Bebas Neue', cursive;
     margin: 0px;
+    padding: 0px;
 }
 h1{
+    font-family: 'Bebas Neue';
     font-size: 50px;
 }
 h2{
+    font-family: 'Bebas Neue';
     font-size: 40px;
 }
+.color-navy{
+    color: navy;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.color-dimgray{
+    color: dimgray;
+}
+
 .orange-highlight{
-    color: orange;
+    color: orangered;
+}
+.link-button{
+    font-family: 'Roboto', sans-serif;
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-size: medium;
+    font-weight: 500;
 }
 .half-width{
     width: 40%;
@@ -20,50 +45,74 @@ h2{
 .half-width img{
     width: 100%;
 }
-.top-banner{
-    background-image: url("images/topbanner.jpg");
-    background-repeat: no-repeat;
-}
-section{
+
+#second{
     height: 500px;
 }
-.link-button{
-    text-decoration: none;
-    background-image: linear-gradient(45deg, lightsalmon ,black);
-    background-color: orange;
-    padding: 10px 20px;
+#third{
+    height: 1000px;
+}
+#fourth{
+    height: 700px; 
+}
+#fifth{
+    height: 1000px;
+}
+
+.lwp-project{
     border-radius: 5px;
+    height: 33%;
+    background-color: rgb(216, 210, 210);
+}
+.lwp-area{
+    background-color: rgb(206, 234, 238);
+    text-align: center;
+}
+
+.one-third-width{
+    height: 400px;
+    width: 29%;
+    float: left;
+    margin-left: 2%;
+    padding: 1%;
+
+}
+#gym{
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+}
+#agency{
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+}
+#music{
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 15px;
+}
+.lwp-area img{
+    width: 60%;
+}
+.chat{
+    height: 100px;
+    text-align: center;
+    background-image: url("images/shapes/Group_33094_1.png");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.chat h2{
     color: white;
+    text-align: center;
 }
-p{
-    color: dimgray;
-}
-.dream-area{
-    background-image: url("images/topbanner.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-}
-.single-exp{
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 5px;
-    height: 80%;
-background-color: white;
-}
-.exp-area{
-    background-image: url("images/topbanner.jpg");
-    background-repeat: no-repeat;
-    background-position: left;
-}
-#full{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, lightSalmon, tomato);
-    border-image-slice: 1;
-}
-#baby{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue ,cyan);
-    border-image-slice: 1;
+#wi{
+    text-align: left;
 }
 footer{
+    margin: 200px;
+}
+.text-center{
     text-align: center;
 }
